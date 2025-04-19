@@ -77,10 +77,10 @@ class Enemy(GameSprite):
 
 
 
-car1 = Enemy('car1.png', 500, 100, 70, 80, 3)
-car2 = Enemy('car2.png', 50, 150, 50, 90, 5)
-car3 = Enemy('car3 (2).png', 110, 200, 120, 100, 3)
-racer = Player('car4 (2).png', 220, 180, 120, 120, 5)
+car1 = Enemy('car1.png', 400, 70, 70, 80, 3)
+car2 = Enemy('car2.png', 50, 100, 50, 90, 5)
+car3 = Enemy('car3 (2).png', 190, 110, 70, 100, 3)
+racer = Player('car4 (2).png', 220, 400, 65, 100, 5)
 
 game = True
 finish = False
